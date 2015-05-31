@@ -1,0 +1,112 @@
+<!--###HTMLStartTag###-><html>
+<head>
+<title>Recent Jobs</title>
+<meta http-equiv="Expires"
+content="Tue, 25 Apr 1970 09:30:00 -0700">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+  
+<table width="610" border="1">
+  <tr>
+      
+    <td width="610" bgcolor="#666666" align="center"> <font color="#FFFF00">
+Jobs 
+      information is
+          updated daily<br>
+          <script language="JavaScript" >
+randomno=Math.random()
+strTagStart="<a href=\"-###Self##?rnd=" + randomno 
+strTagEnd="\">Click Here</a>"
+strTag=strTagStart+strTagEnd
+document.write (strTag);
+	
+      </script>
+
+ to Refresh</font></td>
+    </tr>
+  </table>
+<!--###TemplateStart###->
+
+
+
+<table width="610" border="1" >
+
+  <tr bgcolor="#000000"> 
+    <td width="300" height="19"><font color="#FFFF00" size="3" face="Times New Roman, Times, serif"> 
+      <strong>###Title###</strong><br>
+      </font></td>
+<td width="128" height="19"><strong> <font color="#FFFF00" size="2" face="Times New Roman, Times, serif">
+Announce: ###Ann###</font></strong></td>
+<td width="99" height="19"><strong> <font color="#FFFF00" size="2" face="Times New Roman, Times, serif">
+Starts:###Stat##</font></strong></td>
+<td width="99" height="19"><strong> <font color="#FFFF00" size="2" face="Times New Roman, Times, serif">
+Ends: ###End##</font></strong></td>
+  </tr>
+ <tr bgcolor="#CCCCCC"> 
+    <td height="19" colspan="4"><font size="2">###Contents###</font></td>
+  </tr>
+
+
+<!-###AddStart###->
+  <tr bgcolor="#FFFFFF"> 
+    <td   colspan="4"><!-##AddTypeStart###->
+	<!-###FlashTemplateStart###->
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="598"height="120">
+        <param name="movie" value="acc.swf">
+        <param name="quality" value="high">
+        <embed src="acc.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="598" height="120"></embed></object>
+		<!-###FlashTemplateEnd###->
+		<!-###ImageTemplateStart###->
+		<img src="pic.gif" width="598" height="120">
+		<!-###ImageTemplateEnd###->
+<!-###AddTypeEnd###-></td>
+  </tr>
+<!-###AddEnd###->
+</table>
+
+<!-###TemplateEnd###>
+
+<!-###NavigationStart###>
+<table width="610" border="1" >
+<tr>
+	<td>
+	<p align="center"><b>Navigate to get even more jobs</b></td>
+</tr>
+<tr>
+<td>
+<!-###EnablePreviousStart####->
+<a href="###PreviousHREF###">Previous</a>
+<!-###EnablePreviousEnd####->
+
+<!-###DisablePreviousStart###->
+First Page
+<!-###DisablePreviousEnd####->
+
+
+<!-###EnumiratedStart###->
+<!-###EnumiratedNumberStart###->
+<a href="###EnumiratedFile###">--###EnumiratedNumber###---</a>
+<!-###EnumiratedNumberEnd###->
+
+<!-###EnumiratedCurrentStart###->
+<b><a href="###EnumiratedFile###">--###EnumiratedNumber###---</a></b>
+<!-###EnumiratedCurrentEnd###->
+<!-###EnumiratedEnd###->
+
+<!-###EnableNextStart####->
+<a href="###NextHREF###">Next</a>
+<!-###EnableNextEnd####->
+
+<!-###DisableNextStart####->
+Last Page
+<!-###DisableNextEnd####->
+</td>
+</tr>
+</table>
+<!-###NavigationEnd###->
+
+</body>
+</html><!-###HTMLEndTag###->
